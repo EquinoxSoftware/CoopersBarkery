@@ -1,0 +1,429 @@
+﻿h1
+{
+    height: 90px;
+    margin: 30px 10px 10px;
+    padding: 0;
+    width: 500px;
+}
+h2, h3, h4
+{
+    color: #A55D16;
+}
+h3
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+}
+h4
+{
+    margin-top: 0;
+    padding-top: 0;
+}
+h2
+{
+    font-size: 20px;
+    margin: 100x 0 0;
+    padding: 0;
+}
+#PageWrapper
+{
+    width: 958px;
+    background-color: White;
+    float: left;
+    margin-top: 5px;
+}
+body
+{
+    font-size: 85%;
+    font-family: "Bell MT" , Arial, Helvetica, Sans-Serif;
+    margin: 0 auto;
+    width: 960px;
+    color: #2F2F2F;
+}
+.SpanWrapper
+{
+    width: 800px;
+    margin: 10px auto;
+    text-align: center;
+}
+.tag
+{
+    font-size: 12px;
+    color: #023268;
+    font-weight: lighter;
+}
+
+ul#HomeHeader
+{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 650px;
+}
+.BLeft
+{
+    border-left: 1px solid #ffffff;
+}
+.Headband
+{
+    background-image: url( 'images/gradient.png' );
+    background-repeat: repeat-x;
+    background-color: #808080;
+    width: 960px;
+    height: 35px;
+}
+ul#HomeHeader li, ul#HomeHeader li a
+{
+    text-transform: uppercase;
+    font-family: "Bell MT";
+    color: White;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul#HomeHeader li
+{
+    letter-spacing: 2px;
+    margin: 5px 10px;
+    float: left;
+    padding: 4px;
+}
+#HeaderImage
+{
+    height: 90px;
+    width: 510px;
+}
+#Header
+{
+    clear: both;
+    width: 960px;
+}
+#Identity
+{
+    margin-bottom: 20px;
+    width: 960px;
+}
+#Identity span
+{
+    text-transform: uppercase;
+}
+#Footer
+{
+    clear: both;
+}
+
+#Navigation
+{
+    border-right: 1px solid #A55D16;
+    float: left;
+    margin: 10px 0;
+    width: 224px;
+    min-height: 503px;
+}
+#Navigation ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 10px;
+    text-align: left;
+}
+#Navigation li
+{
+    height: 14px;
+    margin: 0;
+    padding: 0 0 0 3px;
+}
+#Navigation li a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+#Page
+{
+    padding: 10px;
+    margin-left: -1px;
+    border-left: 1px solid #A55D16;
+    float: left;
+    width: 710px;
+}
+td, th
+{
+    empty-cells: show;
+    margin: 0;
+    padding: 5px;
+    vertical-align: top;
+}
+form fieldset
+{
+    padding: 10px;
+    border: 1px solid #D9D9CE;
+}
+form fieldset legend
+{
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+form dl, form fieldset dl, dlform div dl
+{
+    float: left;
+    width: 100%;
+    padding: 0 0 10px;
+}
+form dt, form div dt
+{
+    clear: both;
+    float: left;
+    margin: 0 5px 5px 0;
+    text-align: right;
+    width: 75px;
+}
+form div dd, form dd
+{
+    float: left;
+    margin: 0 0 10px;
+}
+a
+{
+    color: #414141;
+}
+#LeftColumnPH_SubmitBtn
+{
+    margin-left: 25px;
+}
+.Error
+{
+    color: red;
+    font-weight: bold;
+}
+img.ErrorIcon, span.ErrorIcon
+{
+    float: right;
+    display: inline;
+}
+div table
+{
+    margin: 10px 0;
+}
+table
+{
+    border-collapse: collapse;
+}
+.Bold
+{
+    font-weight: bold;
+}
+.Clear
+{
+    clear: both;
+}
+.FLeft
+{
+    float: left;
+}
+.FRight
+{
+    float: right;
+}
+.NoBullet
+{
+    list-style: none;
+}
+div#Breadcrumb
+{
+    float: right;
+    clear: both;
+}
+#aspnetForm
+{
+    clear: both;
+}
+img
+{
+    border: none;
+}
+.Notice
+{
+    background-color: Yellow;
+    font-weight: bold;
+    padding: 10px;
+}
+.DisplayNone
+{
+    display: none;
+}
+h3 a
+{
+    text-decoration: none;
+}
+.AspNet-ChangePassword-ChangePasswordTitlePanel
+{
+    display: none;
+}
+.AspNet-ChangePassword div label
+{
+    width: 139px;
+    float: left;
+}
+.AspNet-ChangePassword div
+{
+    margin: 5px 0;
+}
+.Hide
+{
+    display: none;
+}
+.Center
+{
+    margin: auto;
+}
+.RegisterFixWidth
+{
+    width: 185px;
+}
+.Example
+{
+    margin: 0;
+    width: 290px;
+}
+.Event1 a, .Event1
+{
+    color: #32cd32;
+    text-decoration: none;
+}
+.Event2 a, .Event2
+{
+    color: Blue;
+    text-decoration: none;
+}
+.Event3 a, .Event3
+{
+    color: Red;
+    text-decoration: none;
+}
+.Event4 a
+{
+    color: Black;
+    text-decoration: none;
+}
+.Announcement
+{
+    border-bottom: 1px solid #D9D9CE;
+}
+.ContactInfo h3
+{
+    width: 160px;
+    border-bottom: 1px solid #D9D9CE;
+    font-size: 94%;
+}
+.ContactInfo
+{
+    position: absolute;
+    top: 990px;
+    text-align: center;
+}
+.ContactInfo p
+{
+    margin: 0;
+    padding: 0;
+}
+#UpcomingEvents, #Links
+{
+    border: 1px solid #D9D9CE;
+}
+#Links
+{
+    margin-top: 10px;
+}
+#UpcomingEvents h3, #Links h3
+{
+    border: 1px solid #D9D9CE;
+    margin: -1px -1px 0 -1px;
+    padding: 5px 0;
+    text-align: center;
+}
+#UpcomingEvents p, #Links p
+{
+    padding: 0 5px;
+}
+#UpcomingEvents ul, #Links ul
+{
+    list-style: none;
+    padding: 0 0 0 10px;
+}
+.CenterText
+{
+    text-align: center;
+}
+.Special
+{
+    color: #023268;
+}
+#UpcomingEvents .Special
+{
+    text-align: center;
+    color: #023268;
+    margin-top: 30px;
+}
+.Special a
+{
+    color: #023268;
+}
+.DateLi
+{
+    margin: 10px 0 0 0;
+}
+.Blue
+{
+    color: Blue;
+}
+.DescriptionUL ul
+{
+    padding: 0;
+    list-style: none;
+}
+.DescriptionUL
+{
+    list-style: none;
+    padding: 0;
+    width: 455px;
+}
+.DescriptionUL li
+{
+    padding: 0 0 5px 0;
+}
+#LeftColumn
+{
+    width: 370px;
+    float: left;
+}
+#RightColumn
+{
+    margin-top: -4px;
+    margin-left: 20px;
+    width: 320px;
+    float: left;
+}
+#Footer p, #Footer p a
+{
+    text-decoration: none;
+    color: #7F7F7F;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#BottomRow
+{
+    clear: both;
+}
+.Item
+{
+    width: 320px;
+    float: left;
+}
+#ItemContainer
+{
+    float: left;
+    width: 640px;
+}

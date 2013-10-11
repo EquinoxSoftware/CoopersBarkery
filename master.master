@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/master.master.cs" Inherits="master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title><asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder></title>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <link rel="Stylesheet" href="CommonStyles.css" />
+    <!--[if IE 7]>
+    <style type="text/css">
+        form div dd, form dd
+        {
+            float: none;
+            margin: inherit;   
+        }
+    </style>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div id="Header">
+        <h1>
+        <asp:HyperLink NavigateUrl="~/default.aspx" ID="HomeLink" runat="server">
+            <asp:Image runat="server" ID="HeaderImage" BorderStyle="None" AlternateText="CSC335" ImageUrl="~/images/Warehouse.jpg" />
+        </asp:HyperLink>
+        </h1>
+        <div class="Headband">
+        </div>
+
+    </div>
+    <div id="PageWrapper">
+        <div id="Navigation">
+            <ul>
+            <asp:ContentPlaceHolder ID="Navigation" runat="server">
+                
+            </asp:ContentPlaceHolder>
+            </ul>
+
+        </div>
+        <div id="Page">
+            <asp:ContentPlaceHolder ID="PagePH" runat="server"></asp:ContentPlaceHolder>
+            <div id="LeftColumn">
+                <asp:ContentPlaceHolder ID="LeftColumnPH" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div id="RightColumn">
+                <h2>
+                    <asp:ContentPlaceHolder runat="server" ID="SiteTitlePH">
+                    </asp:ContentPlaceHolder>
+                </h2>
+                <asp:ContentPlaceHolder ID="RightColumnPH" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div id="BottomRow">
+                <asp:ContentPlaceHolder ID="BottomRowPH" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
